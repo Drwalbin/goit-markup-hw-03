@@ -50,13 +50,11 @@ a {
 /* ----------------------------MENU STRONY--------------------------------------*/
 
 .header {
- 
   padding: 32px 0px 32px 0px;
 }
 
 .menu-section {
   width: 1600px;
-  
 
   display: flex;
 }
@@ -177,7 +175,6 @@ a {
 /*-------------------SEKCJA   NASZE ATUTY------------------------ */
 
 .our-strengths-section {
- 
   display: flex;
   letter-spacing: 0.03em;
 }
@@ -206,7 +203,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-
 .our-strengths-title {
   width: 352px;
   height: 42px;
@@ -223,7 +219,6 @@ a {
 .our-strengths-photo {
   width: 370px;
   height: 294px;
- 
 
   display: flex;
 }
@@ -243,7 +238,7 @@ a {
 .our-team {
   justify-content: center;
   align-items: stretch;
- 
+
   background: #f5f4fa;
 }
 
@@ -260,7 +255,6 @@ a {
 
 .our-team-profiles {
   display: flex;
-  
 }
 
 .our-team-profile-box {
@@ -299,14 +293,12 @@ a {
 /*-------------------- FOOTER   LINKI KONTAKTOWE -----------------------------*/
 
 .footer-section {
- padding-top: 60px;
- padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--secondary-background-color);
 }
 
 .footer-logo-webstudio {
- 
-
   color: var(--third-color);
   font-family: var(--secondary-font);
   font-style: normal;
@@ -319,15 +311,12 @@ a {
   font-size: 14px;
   line-height: 171%;
   font-style: normal;
-  
 }
 
 .address-section {
-
   letter-spacing: 0.03em;
   display: block;
   align-content: center;
- 
 }
 
 .footer-addres {
@@ -362,7 +351,6 @@ a {
   background-color: var(--brand-color);
   color: var(--third-color);
 }
-
 
 .portfolio-filters-section {
   height: 38px;
