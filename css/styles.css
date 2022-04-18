@@ -332,8 +332,10 @@ a {
 /*------------------------------- PORTFOLIO--------------------------------- */
 .portfolio-section {
   margin: 0 auto;
-  width: 1170px;
-  justify-content: center;
+  width: 1600px;
+  
+  
+  
 }
 
 .portfolio-button {
@@ -362,6 +364,7 @@ a {
 }
 
 .portfolio-box-section {
+  width: 1200px;
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
@@ -373,6 +376,7 @@ a {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .portfolio-box-title {
   font-family: var(--main-font);
