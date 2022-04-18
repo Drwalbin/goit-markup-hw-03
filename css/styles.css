@@ -17,7 +17,6 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  
 }
 
 ul,
@@ -31,10 +30,9 @@ p {
 }
 body {
   font-family: var(--main-font);
-text-decoration: none;
+  text-decoration: none;
   color: var(--main-color);
   background: var(--main-background-color);
- 
 }
 a {
   text-decoration: none;
@@ -128,17 +126,15 @@ a {
 .title-section {
   width: 1600px;
   height: 600px;
-margin: 0 auto;
+  margin: 0 auto;
   background: var(--secondary-background-color);
 }
 
 .main-title {
   margin: 0 auto;
   width: 696px;
-  
   padding-top: 200px;
   justify-content: center;
-
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -163,12 +159,10 @@ margin: 0 auto;
   margin: 0 auto;
   width: 200px;
   height: 50px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 32px;
-
   border-radius: 4px;
 }
 .main-button-text {
@@ -223,7 +217,6 @@ margin: 0 auto;
 .our-strengths-photo {
   width: 370px;
   height: 294px;
-
   display: flex;
 }
 
@@ -242,8 +235,8 @@ margin: 0 auto;
 .our-team {
   justify-content: center;
   align-items: stretch;
-width: 1600px;
-    margin: 0 auto;
+  width: 1600px;
+  margin: 0 auto;
   background: #f5f4fa;
 }
 
@@ -266,13 +259,10 @@ width: 1600px;
   width: 270px;
   height: 368px;
   margin-right: 30px;
-
   border-radius: 4px;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
   background: var(--third-color);
 }
 .our-team-profile-box:last-child {
@@ -344,7 +334,6 @@ width: 1600px;
   margin: 0 auto;
   width: 1170px;
   justify-content: center;
-
 }
 
 .portfolio-button {
@@ -368,7 +357,6 @@ width: 1600px;
 .portfolio-filters-section {
   height: 38px;
   justify-content: center;
-
   display: flex;
   margin-bottom: 50px;
 }
@@ -388,7 +376,6 @@ width: 1600px;
 }
 .portfolio-box-title {
   font-family: var(--main-font);
-
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
