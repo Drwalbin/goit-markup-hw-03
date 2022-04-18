@@ -17,6 +17,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  
 }
 
 ul,
@@ -30,9 +31,10 @@ p {
 }
 body {
   font-family: var(--main-font);
+text-decoration: none;
   color: var(--main-color);
   background: var(--main-background-color);
-  width: 1600px;
+ 
 }
 a {
   text-decoration: none;
@@ -51,6 +53,8 @@ a {
 
 .header {
   padding: 32px 0px 32px 0px;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .menu-section {
@@ -63,6 +67,7 @@ a {
   width: 1600px;
   left: 0px;
   border-bottom: 1px solid #ececec;
+  margin: 0 auto;
 }
 .menu-logo-webstudio {
   width: 145px;
@@ -123,14 +128,14 @@ a {
 .title-section {
   width: 1600px;
   height: 600px;
-
+margin: 0 auto;
   background: var(--secondary-background-color);
 }
 
 .main-title {
   margin: 0 auto;
   width: 696px;
-  height: 120px;
+  
   padding-top: 200px;
   justify-content: center;
 
@@ -173,16 +178,19 @@ a {
 }
 
 /*-------------------SEKCJA   NASZE ATUTY------------------------ */
-
+.strengths-section {
+  width: 1600px;
+  margin: 0 auto;
+}
 .our-strengths-section {
+  width: 1600px;
   display: flex;
   letter-spacing: 0.03em;
+  margin-top: 94px;
 }
 
 .our-strengths-box {
   width: 270px;
-  height: 101px;
-
   margin-right: 30px;
   letter-spacing: 0.03em;
 }
@@ -192,8 +200,6 @@ a {
 
 .our-strengths-box-title {
   width: 270px;
-  height: 16px;
-
   font-size: 36px;
   line-height: 162%;
 }
@@ -205,8 +211,6 @@ a {
 
 .our-strengths-title {
   width: 352px;
-  height: 42px;
-
   margin: auto;
   padding-bottom: 50px;
   font-size: 36px;
@@ -238,7 +242,8 @@ a {
 .our-team {
   justify-content: center;
   align-items: stretch;
-
+width: 1600px;
+    margin: 0 auto;
   background: #f5f4fa;
 }
 
@@ -293,6 +298,8 @@ a {
 /*-------------------- FOOTER   LINKI KONTAKTOWE -----------------------------*/
 
 .footer-section {
+  width: 1600px;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--secondary-background-color);
@@ -333,6 +340,12 @@ a {
 }
 
 /*------------------------------- PORTFOLIO--------------------------------- */
+.portfolio-section {
+  margin: 0 auto;
+  width: 1170px;
+  justify-content: center;
+
+}
 
 .portfolio-button {
   padding: 6px 22px 6px 22px;
@@ -372,7 +385,6 @@ a {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-bottom: 30px;
-  margin-right: 30px;
 }
 .portfolio-box-title {
   font-family: var(--main-font);
